@@ -1,0 +1,38 @@
+CloudSuite Billing Policy and FAQ
+
+1. BILLING CYCLE
+All subscriptions are billed monthly or annually, based on the plan selected at signup. Monthly plans are charged on the same calendar date each month as the original signup date. Annual plans are charged once per year and include a 20% discount compared to monthly pricing.
+
+2. ACCEPTED PAYMENT METHODS
+- Credit/debit cards (Visa, Mastercard, Amex)
+- ACH bank transfer (Business and Enterprise plans only)
+- Invoicing with NET-30 terms (Enterprise plans only, requires sales approval)
+
+3. DUPLICATE CHARGES
+Duplicate charges can occur in rare cases due to:
+- A failed payment retry that succeeded on a second attempt without the first being voided
+- Switching payment methods mid-cycle while a previous charge was still processing
+- Proration errors when upgrading/downgrading plans within the same billing cycle
+
+If you notice a duplicate charge, this is treated as a billing-sensitive issue requiring manual review by the billing team. Do not attempt to resolve this through self-service; it must be escalated to a human billing specialist who can review the transaction ledger and issue a refund if confirmed.
+
+4. REFUND POLICY
+- Monthly plans: Refunds are not provided for partial months, except in cases of confirmed billing errors (duplicate charges, incorrect proration)
+- Annual plans: Pro-rated refunds available within the first 30 days of an annual purchase
+- Confirmed duplicate charges are refunded in full within 5-7 business days to the original payment method
+- All refund requests are reviewed manually; this is a sensitive account action and is never processed automatically by the support bot
+
+5. PLAN UPGRADES AND DOWNGRADES
+Upgrades take effect immediately, with a prorated charge for the remainder of the current billing cycle. Downgrades take effect at the start of the next billing cycle; no partial refund is issued for the unused portion of the higher tier.
+
+6. FAILED PAYMENTS
+If a payment fails, CloudSuite retries automatically on Day 1, Day 3, and Day 7. If all retries fail, the workspace is moved to "Restricted Mode" (read-only access) on Day 8. Full account suspension occurs after 30 days of non-payment, after which workspace data is retained for 90 days before deletion.
+
+7. TAX AND INVOICES
+Invoices are available under Settings > Billing > Invoice History as downloadable PDFs. VAT/GST is automatically calculated based on the billing address provided. Tax-exempt organizations must submit exemption documentation to billing@cloudsuite.io for manual application.
+
+8. CANCELLATION
+Cancellation can be self-served from Settings > Billing > Cancel Subscription. Cancellation takes effect at the end of the current billing period; you retain access until that date. Data is retained for 90 days post-cancellation in case of reactivation, after which it is permanently deleted.
+
+9. ENTERPRISE CUSTOM BILLING
+Enterprise customers with custom contracts should direct all billing discrepancies to their assigned Customer Success Manager rather than general support, as custom pricing terms are not visible in the standard billing dashboard.

@@ -1,0 +1,25 @@
+System Performance and Uptime
+
+SERVICE LEVEL AGREEMENT (SLA)
+CloudSuite commits to 99.9% uptime for Business and Enterprise plans, measured monthly. Free and Starter plans are best-effort with no formal SLA. If uptime falls below the committed threshold in a given month, Business and Enterprise customers are eligible for service credits per the table below:
+
+- 99.0% - 99.9% uptime: 10% credit on that month's invoice
+- 95.0% - 99.0% uptime: 25% credit
+- Below 95.0% uptime: 50% credit
+
+Service credits must be requested within 30 days of the end of the affected billing period and are applied to a future invoice, not refunded as cash.
+
+STATUS PAGE
+Real-time system status, ongoing incidents, and historical uptime are published at status.cloudsuite.io. Subscribe there for email or SMS alerts on incidents affecting your region.
+
+PERFORMANCE DEGRADATION VS OUTAGE
+- Outage: Core functionality (login, ticket creation, API) is fully unavailable
+- Degradation: Service is reachable but slower than normal (e.g., page loads exceeding 3 seconds, API latency exceeding 2 seconds)
+
+Both are logged on the status page, but only full outages count toward SLA credit calculations.
+
+SCHEDULED MAINTENANCE
+Maintenance windows are announced at least 72 hours in advance via the status page and email to workspace Owners and Admins. Scheduled maintenance does not count against the SLA uptime calculation.
+
+REPORTING A PERFORMANCE ISSUE
+If you're experiencing slowness not reflected on the status page, this may be specific to your network, region, or workspace configuration rather than a platform-wide issue. Provide your workspace ID, approximate timestamps, and affected feature when reporting so the issue can be properly diagnosed.

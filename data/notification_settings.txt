@@ -1,0 +1,22 @@
+Notification Settings and Email Digest Configuration
+
+EMAIL NOTIFICATION TYPES
+- Instant: Sent immediately when a triggering event occurs (new assignment, mention, status change on watched ticket)
+- Daily Digest: A single summary email sent at a configurable time, default 8:00 AM in the workspace's set timezone
+- Weekly Digest: Sent every Monday, summarizing the prior week's activity across all watched items
+
+CONFIGURING NOTIFICATION PREFERENCES
+Individual users configure their own preferences under Settings > Notifications. Admins can set workspace-wide defaults under Settings > Workspace > Default Notification Policy, but individual user overrides always take precedence over workspace defaults.
+
+NOT RECEIVING EXPECTED NOTIFICATIONS
+Common causes, in order of frequency:
+1. Notification preference set to "None" or "Digest Only" when instant was expected — check Settings > Notifications first
+2. Email provider filtering — notifications come from notify@cloudsuite.io and are sometimes caught by corporate spam filters
+3. "Mute" applied to a specific ticket or project, which overrides global preferences for that item only
+4. Bounced email address — if your email has hard-bounced previously (e.g., mailbox full), CloudSuite suppresses future sends to that address until the suppression is manually cleared by support
+
+SLACK AND IN-APP NOTIFICATIONS
+These follow separate preference settings from email under Settings > Notifications > Slack and Settings > Notifications > In-App, respectively. Disabling email notifications does not affect Slack or in-app notifications.
+
+DIGEST TIMEZONE ISSUES
+Digest send times are based on the workspace's configured timezone (Settings > Workspace > General), not the individual user's browser timezone. If digests seem to arrive at an unexpected time, verify the workspace timezone setting first.

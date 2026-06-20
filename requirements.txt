@@ -1,0 +1,7 @@
+streamlit>=1.30.0
+google-genai>=0.3.0
+chromadb>=0.4.24
+langchain>=0.1.0
+langchain-text-splitters>=0.0.1
+pypdf>=3.0.0
+python-dotenv>=1.0.0

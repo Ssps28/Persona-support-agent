@@ -1,0 +1,26 @@
+Managing Workspace Admin Permissions
+
+ROLE TYPES
+CloudSuite workspaces support four role types:
+- Owner: Full access including billing, deletion, and transfer of ownership. Only one Owner per workspace.
+- Admin: Full access except billing changes and workspace deletion. Can manage members, integrations, and API keys.
+- Member: Standard access to assigned projects. Cannot manage integrations, API keys, or other users.
+- Viewer: Read-only access to assigned projects.
+
+CHANGING A USER'S ROLE
+Only Owners and Admins can change roles. Navigate to Settings > Members, locate the user, and select a new role from the dropdown. Role changes take effect immediately, including mid-session — a user with an open session will see permission changes on their next page action.
+
+TRANSFERRING OWNERSHIP
+Ownership transfer requires the current Owner to initiate the transfer from Settings > Members > Transfer Ownership. The new owner must accept via an emailed confirmation link within 48 hours. This action cannot be performed by Admins, and cannot be reversed by support without identity verification from the original Owner.
+
+REMOVING A USER
+Removing a user revokes their access immediately but does not delete their historical activity (comments, created tickets, audit logs remain attached to their name). Removed users can be re-invited later; this creates a new member record rather than restoring the old one.
+
+DOMAIN-BASED AUTO-JOIN
+Admins can configure a verified email domain (e.g., @yourcompany.com) so that any new signup with that domain automatically joins the workspace as a Member. This is configured under Settings > Members > Domain Settings and requires DNS TXT record verification.
+
+LOCKED OUT ADMIN SCENARIOS
+If a workspace has no remaining Owner or Admin (e.g., the only Admin's account was deleted), workspace members cannot self-promote. This requires a manual identity-verified support escalation, since granting elevated access without verification is a security-sensitive action that the support bot cannot perform automatically.
+
+AUDIT LOG
+All permission changes are logged under Settings > Audit Log, including who made the change, the previous role, the new role, and a timestamp. Audit logs are retained for 12 months on Business plans and indefinitely on Enterprise plans.
