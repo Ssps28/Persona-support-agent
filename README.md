@@ -2,7 +2,7 @@
 
 An intelligent customer support agent that detects a customer's communication persona, retrieves grounded answers from a knowledge base using RAG, adapts its tone to the detected persona, and escalates to a human agent with a structured handoff summary when appropriate.
 
-**Live demo:** _[add your deployed Streamlit URL here]_
+**Live demo:** _[https://persona-support-agent-ssps28.streamlit.app/]_
 **Demo video:** _[add your screen recording link here]_
 
 ---
